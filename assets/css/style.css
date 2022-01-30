@@ -1,5 +1,42 @@
 body {
     box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+
+/* General */
+
+p {
+    color: hsl(201, 11%, 66%);
+    padding: 1rem 20rem;
+}
+
+.btn {
+    border-radius: 1.5rem;
+    padding: 0.5rem 1.7rem;
+}
+
+.btn--green {
+    background-color: #2eb086;
+    box-shadow: 0.1rem 0.1rem 0.3rem #57bb9b;
+}
+
+.btn--blue {
+    background-color: #548cff;
+    box-shadow: 0.1rem 0.1rem 0.3rem #6597fc;
+}
+
+
+/* Header */
+
+header {
+    background-image: url(../../images/bg-header-desktop.png);
+}
+
+#logo {
+    margin: 5rem 0;
+    width: 5rem;
 }
