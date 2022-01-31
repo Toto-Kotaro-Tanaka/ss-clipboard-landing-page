@@ -9,13 +9,21 @@ body {
 
 /* General */
 
+.container-fluid {
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
 p {
     color: hsl(201, 11%, 66%);
-    padding: 1rem 20rem;
 }
 
 .btn {
     border-radius: 1.5rem;
+    margin: 2rem;
     padding: 0.5rem 1.7rem;
 }
 
@@ -29,6 +37,18 @@ p {
     box-shadow: 0.1rem 0.1rem 0.3rem #6597fc;
 }
 
+.w--40 {
+    width: 40%;
+}
+
+.w--70 {
+    width: 70%;
+}
+
+.mt--8 {
+    margin-top: 8rem;
+}
+
 
 /* Header */
 
@@ -39,4 +59,11 @@ header {
 #logo {
     margin: 5rem 0;
     width: 5rem;
+}
+
+
+/* Sections */
+
+.monitor {
+    width: 43rem;
 }
