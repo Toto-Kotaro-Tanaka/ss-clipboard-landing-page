@@ -45,6 +45,10 @@ p {
     width: 70%;
 }
 
+.w--80 {
+    width: 80%;
+}
+
 .mt--8 {
     margin-top: 8rem;
 }
