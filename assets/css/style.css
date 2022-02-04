@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #efefef;
 }
 
 
@@ -11,6 +12,7 @@ body {
 
 .container-fluid {
     padding: 0;
+    background-color: #fff;
 }
 
 h3 {
@@ -70,4 +72,15 @@ header {
 
 .monitor {
     width: 43rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #efefef;
+}
+
+#footer--logo {
+    width: 3rem;
 }
