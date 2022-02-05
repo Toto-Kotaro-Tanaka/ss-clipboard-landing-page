@@ -55,6 +55,24 @@ p {
     margin-top: 8rem;
 }
 
+.btn--green:hover {
+    background-color: rgba(46, 176, 134, 0.7);
+}
+
+.btn--blue:hover {
+    background-color: rgba(84, 140, 255, 0.7);
+}
+
+.hover:hover {
+    color: hsl(171, 66%, 44%) !important;
+    cursor: pointer;
+}
+
+.fab {
+    font-size: 1.5rem;
+    padding-left: 1.2rem;
+}
+
 
 /* Header */
 
@@ -83,4 +101,16 @@ footer {
 
 #footer--logo {
     width: 3rem;
+}
+
+
+/* Frontend Mentor Default */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
