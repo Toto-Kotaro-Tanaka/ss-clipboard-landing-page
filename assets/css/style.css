@@ -34,9 +34,17 @@ p {
     box-shadow: 0.1rem 0.1rem 0.3rem #57bb9b;
 }
 
+.btn--green:hover {
+    background-color: rgba(46, 176, 134, 0.7);
+}
+
 .btn--blue {
     background-color: #548cff;
     box-shadow: 0.1rem 0.1rem 0.3rem #6597fc;
+}
+
+.btn--blue:hover {
+    background-color: rgba(84, 140, 255, 0.7);
 }
 
 .w--40 {
@@ -55,12 +63,12 @@ p {
     margin-top: 8rem;
 }
 
-.btn--green:hover {
-    background-color: rgba(46, 176, 134, 0.7);
+.msm--8 {
+    margin-left: -8rem;
 }
 
-.btn--blue:hover {
-    background-color: rgba(84, 140, 255, 0.7);
+.ps--10 {
+    padding-left: 10rem;
 }
 
 .hover:hover {
@@ -89,7 +97,7 @@ header {
 /* Sections */
 
 .monitor {
-    width: 43rem;
+    width: 50rem;
 }
 
 
