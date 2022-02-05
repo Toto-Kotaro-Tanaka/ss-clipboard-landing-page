@@ -47,6 +47,11 @@ p {
     background-color: rgba(84, 140, 255, 0.7);
 }
 
+.hover:hover {
+    color: hsl(171, 66%, 44%) !important;
+    cursor: pointer;
+}
+
 .w--40 {
     width: 40%;
 }
@@ -69,11 +74,6 @@ p {
 
 .ps--10 {
     padding-left: 10rem;
-}
-
-.hover:hover {
-    color: hsl(171, 66%, 44%) !important;
-    cursor: pointer;
 }
 
 .fab {
@@ -122,3 +122,24 @@ footer {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+/* -- Media Query: Screen Size Smaller Than 77rem / 1232px -- */
+
+@media only screen and (max-width: 77rem) {
+    .mt--2 {
+        margin-top: 1rem;
+    }
+    .ps--7 {
+        padding-left: 7rem;
+    }
+    .monitor {
+        width: 40rem;
+    }
+    .company--logo {
+        width: 12rem;
+    }
+}
+
+
+/* -- Media Query: Screen Size Smaller Than 62rem / 992px -- */
