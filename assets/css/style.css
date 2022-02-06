@@ -127,6 +127,9 @@ footer {
 /* -- Media Query: Screen Size Smaller Than 77rem / 1232px -- */
 
 @media only screen and (max-width: 77rem) {
+    .devices {
+        width: 43rem;
+    }
     .mt--2 {
         margin-top: 1rem;
     }
@@ -143,3 +146,18 @@ footer {
 
 
 /* -- Media Query: Screen Size Smaller Than 62rem / 992px -- */
+
+@media only screen and (max-width: 62rem) {
+    .msm--8 {
+        margin-left: 0rem;
+    }
+    .monitor {
+        width: 35rem;
+    }
+    .ps--0 {
+        padding-left: 0;
+    }
+    .devices {
+        width: 38rem;
+    }
+}
