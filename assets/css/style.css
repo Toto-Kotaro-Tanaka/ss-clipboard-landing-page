@@ -52,11 +52,11 @@ p {
     cursor: pointer;
 }
 
-.w--40 {
+.w--400 {
     width: 40%;
 }
 
-.w--70 {
+.w--700 {
     width: 70%;
 }
 
@@ -159,5 +159,40 @@ footer {
     }
     .devices {
         width: 38rem;
+    }
+    .w--400 {
+        padding: 0 2rem;
+        width: 100%;
+    }
+}
+
+
+/* -- Media Query: Screen Size Smaller Than 40rem / 639px -- */
+
+@media only screen and (max-width: 40rem) {
+    #logo {
+        width: 7rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+        padding: 0 1rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+        padding: 0 1rem;
+    }
+    .btn {
+        margin-bottom: 0rem;
+        width: 70%;
+    }
+    .monitor {
+        width: 20rem;
+    }
+    .devices {
+        width: 20rem;
+    }
+    .w--700 {
+        padding: 0 2rem;
+        width: 100%;
     }
 }
