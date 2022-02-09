@@ -173,10 +173,6 @@ footer {
     #logo {
         width: 7rem;
     }
-    .company--logo {
-        width: 8rem;
-        margin: 0 0 5rem;
-    }
     h1 {
         font-size: 2.2rem;
         padding: 0 1rem;
@@ -198,5 +194,15 @@ footer {
     .w--700 {
         padding: 0 2rem;
         width: 100%;
+    }
+}
+
+
+/* -- Media Query: Screen Size Smaller Than 36rem / 576px -- */
+
+@media only screen and (max-width: 36rem) {
+    .company--logo {
+        width: 8rem;
+        margin: 0 0 5rem;
     }
 }
