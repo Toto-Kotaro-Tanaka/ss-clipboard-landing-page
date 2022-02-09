@@ -173,6 +173,10 @@ footer {
     #logo {
         width: 7rem;
     }
+    .company--logo {
+        width: 8rem;
+        margin: 0 0 5rem;
+    }
     h1 {
         font-size: 2.2rem;
         padding: 0 1rem;
